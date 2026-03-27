@@ -66,15 +66,75 @@
             </div>
             <ul>
                 <li>
-                    <a href="https://pastelink.net/z5bintfk" target="_blank"
-                      ><img src="downloa.jpg" alt="downloa"
-                    /></a>
+                    <a href="#" onclick="openAdThenDownload(event,'https://www.profitablecpmratenetwork.com/xh4199qha?key=85e1ba99dec90e46ff9cf280a194f7fd','https://pastelink.net/z5bintfk')">
+                      <img src="downloa.jpg" alt="downloa">
+                    </a>
+
+                    <script>
+                        function openAdThenDownload(e, adLink,downloadLink) {
+                            e.preventDefault();
+
+                            let count = localStorage.getItem("clickCount") || 0;
+                            count++;
+
+                            if (count == 1) {
+                                window.open(adLink, "_blank");
+                            } else {
+
+                                window.open(downloadLink, "_blank");
+                                count = 0;
+                            }
+                            localStorage.setItem("clickCount", count);
+                        }
+                    </script>
+
                 </li>
                 <li>
-                    <a href="https://youtu.be/4DzIxuyQPZE" target="_blank"><img src="download.jpg" alt="download" /></a>
+                    <a herf="#" onclick="openAdThenDownload(event,'https://www.profitablecpmratenetwork.com/xh4199qha?key=85e1ba99dec90e46ff9cf280a194f7fd','https://youtu.be/4DzIxuyQPZE')">
+                        <img src="download.jpg" alt="download">
+                    </a>
+                    
+                    <script>
+                        function openAdThenDownload(e, adLink, downloadLink) {
+                            e.preventDefault();
+
+                            let count = localStorage.getItem("clickCount") || 0;
+                            count++;
+
+                            if (count == 1) {
+                                window.open(adLink, "_blank");
+                            } else {
+
+                                window.open(downloadLink, "_blank");
+                                count = 0;
+                            }
+                            localStorage.setItem("clickCount", count);
+                        }
+                    </script>
+
                 </li>
                 <li>
-                    <a href="https://www.mediafire.com/file/uy2mwy7cy74a40w/Creation_Master_15_Ultimate.rar/file" target="_blank"><img src="images.jpg" alt="images" /></a>
+                    <a herf="#" onclick="openAdThenDownload(event,'https://www.profitablecpmratenetwork.com/xh4199qha?key=85e1ba99dec90e46ff9cf280a194f7fd','https://www.mediafire.com/file/uy2mwy7cy74a40w/Creation_Master_15_Ultimate.rar/file')">
+                        <img src="images.jpg" alt="images">
+                    </a>
+                    
+                    <script>
+                        function openAdThenDownload(e, adLink, downloadLink) {
+                            e.preventDefault();
+
+                            let count = localStorage.getItem("clickCount") || 0;
+                            count++;
+
+                            if (count == 1) {
+                                window.open(adLink, "_blank");
+                            } else {
+
+                                window.open(downloadLink, "_blank");
+                                count = 0;
+                            }
+                            localStorage.setItem("clickCount", count);
+                        }
+                    </script>
                 </li>
             </ul>
         </div>
