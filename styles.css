@@ -11,6 +11,9 @@
   
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -103,7 +106,7 @@ hr{
 
 
 .AboutMe {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   margin: 5rem auto;
