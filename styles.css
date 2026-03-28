@@ -356,19 +356,20 @@ footer {
   
   .koussai {
     position: relative;
-    left: 20px;
-    top: -405px;
+    left: 47px;
+    top: -615px;
   }
 
   .sop {
     position: relative;
-    left: 15px;
-    top: -160px;
+    left: 40px;
+    top: -390px;
   }
 
   .daya {
     position: relative;
-    top: -650px;
+    top: -835px;
+    left: 57px;
   }
 
   .AboutMePar {
@@ -394,5 +395,9 @@ footer {
     left: -620px;
     top: -230px;
  }
-
+ 
+ .iyad {
+  left: 70px;
+  top: -170px;
+ }
 }
