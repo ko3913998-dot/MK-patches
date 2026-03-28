@@ -136,6 +136,33 @@
                         }
                     </script>
                 </li>
+                <li>
+                    <a herf="#" onclick="openAdThenDownload(event,'https://www.profitablecpmratenetwork.com/xh4199qha?key=85e1ba99dec90e46ff9cf280a194f7fd','https://pcgd.net/dRDXHWWA4ZdgY5t/file','https://pcgd.net/wtnrMsocDBGLcrD/file')">
+                        <img src="koussai.jpg" alt="images">
+                    </a>
+                
+                    <script>
+                        function openAdThenDownload(e, adLink, downloadLink) {
+                            e.preventDefault();
+
+                            let count = localStorage.getItem("clickCount") || 0;
+                            count++;
+
+                            if (count == 1) {
+                                window.open(adLink, "_blank");
+                            }    
+                            else if (count == 2) {
+                                window.open(downloadLink, "_blank");
+                            }
+                            else if (count == 3) {
+                                window.open('https://pcgd.net/wtnrMsocDBGLcrD/file', "_blank");
+                                count = 0;
+                            }
+
+                            localStorage.setItem("clickCount", count);
+                        }
+                    </script>
+                </li>
             </ul>
         </div>
         <p class="daya">
@@ -146,6 +173,9 @@
         </p>
         <p class="sop">
             Click hear to Download the Creation Master 15
+        </p>
+        <p class="iyad">
+            Click hear to Download Residnte evil 6
         </p>
 
     </section>
