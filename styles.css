@@ -152,6 +152,8 @@ hr{
 
 .works  ul {
   display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
   list-style-type: none;
   align-items: center;
   justify-content: space-between;
@@ -177,22 +179,22 @@ hr{
 
 .daya {
   position: relative;
-  top: -77px;
+  top: -593px;
   left: 35px;
   font-size: 13px;
 }
 
 .koussai {
   position: relative;
-  top: -97px;
-  right: -330px;
+  top: -613px;
+  right: -490px;
   font-size: 13px;
 }
 
 .sop {
   position: relative;
-  top: -116px;
-  left: 635px;
+  top: -632px;
+  left: 940px;
   font-size: 13px;
 }
 
@@ -264,9 +266,44 @@ footer {
 
 .iyad {
   position: relative;
-  top: -137px;
+  top: -395px;
   font-size: 13px;
-  left: 965px;
+  left: 50px;
+}
+
+.appa {
+  position: relative;
+  top: -435px;
+  font-size: 13px;
+  left: 950px;
+}
+
+.apps {
+  position: relative;
+  top: -237px;
+  font-size: 13px;
+  left: 945px;
+}
+
+.aaaa {
+  position: relative;
+  top: -217px;
+  font-size: 13px;
+  left: 450px;
+}
+
+.baba {
+  position: relative;
+  top: -197px;
+  font-size: 13px;
+  left: 20px;
+}
+
+.mama {
+  position: relative;
+  top: -415px;
+  font-size: 13px;
+  left: 487px;
 }
 
 @media (max-width: 1023px) {
@@ -357,18 +394,18 @@ footer {
   .koussai {
     position: relative;
     left: 47px;
-    top: -615px;
+    top: -1818px;
   }
 
   .sop {
     position: relative;
     left: 40px;
-    top: -390px;
+    top: -1595px;
   }
 
   .daya {
     position: relative;
-    top: -835px;
+    top: -2037px;
     left: 57px;
   }
 
@@ -397,7 +434,38 @@ footer {
  }
  
  .iyad {
+  position: relative;
   left: 70px;
-  top: -170px;
+  top: -1375px;
+ }
+
+ .baba {
+   position: relative;
+   left: 50px;
+   top: -713px;
+ }
+
+ .mama {
+   position: relative;
+   left: 50px;
+   top: -1155px;
+ }
+
+ .apps {
+   position: relative;
+   left: 50px;
+   top: -270px;
+ }
+
+ .appa {
+   position: relative;
+   left: 55px;
+   top: -935px;
+ }
+
+ .aaaa {
+   position: relative;
+   left: 40px;
+   top: -490px;
  }
 }
