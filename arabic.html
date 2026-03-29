@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        button {
+            padding: 10px 15px;
+            cursor: pointer;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- زر تغيير اللغة -->
+    <button onclick="toggleLang()">AR / EN</button>
+
+    <!-- المحتوى -->
+    <h1 id="title">Welcome</h1>
+    <p id="desc">This is my website</p>
+
+    <script>
+        const translations = {
+            en: {
+                title: "Welcome",
+                desc: "This is my website"
+            },
+            ar: {
+                title: "مرحبا",
+                desc: "هذا موقعي"
+            }
+        };
+
+        let currentLang = localStorage.getItem("lang") || "en";
+
+        function setLang(lang) {
+            document.getElementById("title").innerText = translations[lang].title;
+            document.getElementById("desc").innerText = translations[lang].desc;
+
+            document.body.dir = (lang === "ar") ? "rtl" : "ltr";
+
+            localStorage.setItem("lang", lang);
+            currentLang = lang;
+        }
+
+        function toggleLang() {
+            if (currentLang === "en") {
+                setLang("ar");
+            } else {
+                setLang("en");
+            }
+        }
+
+        // تحميل اللغة عند فتح الموقع
+        window.onload = () => {
+            setLang(currentLang);
+        };
+    </script>
+
+</body>
+
+</html>
