@@ -593,6 +593,14 @@ footer p::after {
 
 @media (max-width: 1023px) {
 
+    body::before {
+        background-image: none;
+    }
+
+    body::after {
+        background-image: none;
+    }
+
     #particlesCanvas {
        position: fixed;
        width: 100%;
