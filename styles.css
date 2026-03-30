@@ -179,21 +179,21 @@ hr{
 
 .daya {
   position: relative;
-  top: -593px;
+  top: -1115px;
   left: 35px;
   font-size: 13px;
 }
 
 .koussai {
   position: relative;
-  top: -613px;
+  top: -1135px;
   right: -490px;
   font-size: 13px;
 }
 
 .sop {
   position: relative;
-  top: -632px;
+  top: -1155px;
   left: 940px;
   font-size: 13px;
 }
@@ -266,44 +266,86 @@ footer {
 
 .iyad {
   position: relative;
-  top: -395px;
+  top: -915px;
   font-size: 13px;
   left: 50px;
 }
 
 .appa {
   position: relative;
-  top: -435px;
+  top: -955px;
   font-size: 13px;
   left: 950px;
 }
 
 .apps {
   position: relative;
-  top: -237px;
+  top: -755px;
   font-size: 13px;
   left: 945px;
 }
 
 .aaaa {
   position: relative;
-  top: -217px;
+  top: -735px;
   font-size: 13px;
   left: 450px;
 }
 
 .baba {
   position: relative;
-  top: -197px;
+  top: -715px;
   font-size: 13px;
   left: 20px;
 }
 
 .mama {
   position: relative;
-  top: -415px;
+  top: -935px;
   font-size: 13px;
   left: 487px;
+}
+
+.head {
+  position: relative;
+  top: -515px;
+  font-size: 13px;
+  left: 45px;
+}
+
+.cells {
+  position: relative;
+  top: -557px;
+  font-size: 13px;
+  left: 957px;
+}
+
+.evl {
+  position: relative;
+  top: -280px;
+  font-size: 13px;
+  left: 45px;
+}
+
+.forza {
+  position: relative;
+  top: -573px;
+  font-size: 13px;
+  left: 510px;
+}
+
+.hollow {
+  position: relative;
+  top: -340px;
+  font-size: 13px;
+  left: 470px;
+}
+
+.JoJos {
+  position: relative;
+  top: -360px;
+  font-size: 13px;
+  left: 970px;
 }
 
 @media (max-width: 1023px) {
@@ -394,18 +436,18 @@ footer {
   .koussai {
     position: relative;
     left: 40px;
-    top: -1818px;
+    top: -3265px;
   }
 
   .sop {
     position: relative;
     left: 35px;
-    top: -1595px;
+    top: -3040px;
   }
 
   .daya {
     position: relative;
-    top: -2037px;
+    top: -3483px;
     left: 55px;
   }
 
@@ -436,36 +478,72 @@ footer {
  .iyad {
   position: relative;
   left: 58px;
-  top: -1375px;
+  top: -2820px;
  }
 
  .baba {
    position: relative;
    left: 30px;
-   top: -713px;
+   top: -2157px;
  }
 
  .mama {
    position: relative;
    left: 42px;
-   top: -1155px;
+   top: -2600px;
  }
 
  .apps {
    position: relative;
    left: 37px;
-   top: -270px;
+   top: -1717px;
  }
 
  .appa {
    position: relative;
    left: 45px;
-   top: -935px;
+   top: -2380px;
  }
 
  .aaaa {
    position: relative;
    left: 20px;
-   top: -490px;
+   top: -1940px;
+ }
+
+ .cells {
+   position: relative;
+   top: -1055px;
+   left: 60px;
+ }
+
+ .evl {
+   position: relative;
+   top: -793px;
+   left: 55px;
+ }
+
+ .forza {
+   position: relative;
+   top: -1315px;
+   left: 70px;
+ }
+
+ .hollow {
+   position: relative;
+   top: -610px;
+   left: 30px;
+ }
+
+ .JoJos {
+   position: relative;
+   top: -390px;
+   left: 65px;
+ }
+
+ .head {
+   position: relative;
+   top: -1497px;
+   left: 67px;
  }
 }
